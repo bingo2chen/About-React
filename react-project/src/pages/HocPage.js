@@ -14,6 +14,8 @@ const foo = Comp => props => {
 //   return <div className="border">Child-{props.name}</div>
 // }
 
+// 装饰器
+// @foo
 @foo
 class Child extends Component {
   render() { 
