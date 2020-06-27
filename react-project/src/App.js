@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
-import ContextPage from './pages/ContextPage';
+import AntdFormPage from './pages/AntdFormPage';
+// import ContextPage from './pages/ContextPage';
 // import HocPage from './pages/HocPage';
 
 function App() {
   return (
     <div className="App">
-      <ContextPage/>
+      {/* <ContextPage/> */}
       {/* <HocPage /> */}
+      
+      <AntdFormPage />
     </div>
   );
 }
