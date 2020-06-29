@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
-import AntdFormPage from './pages/AntdFormPage';
+// import AntdFormPage from './pages/AntdFormPage';
 // import ContextPage from './pages/ContextPage';
 // import HocPage from './pages/HocPage';
+import MyRCFieldForm from './pages/MyRCFieldForm';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <ContextPage/> */}
       {/* <HocPage /> */}
       
-      <AntdFormPage />
+      {/* <AntdFormPage /> */}
+      <MyRCFieldForm/>
     </div>
   );
 }
